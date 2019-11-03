@@ -10,5 +10,6 @@ HOW DOES IT WORK?
 NOTE: The Delta Thresholds and Contour Area have been experimentally determined to work for my webcam. Feel free to tinker with the numbers to find what suits you the best.
 
 LIMITATION:
-1. The first frame should contain a background. If an object, like an individual, is in this frame then the delta frame will not be completely accurate. This causes the person to be broken into smaller units instead of a cohesive contour.
-2. I'm working on finding/creating more efficient libraries to improve the calculation of the delta frame which directly impacts motion detection.
+1. The first frame should contain a background. If an object, like an individual, is in this frame then the delta frame will not be completely accurate. This causes the person to be broken into smaller units instead of having a cohesive contour.
+
+I'm working on finding/creating more efficient libraries to improve the delta frame calculation, which can enhance motion detection.
